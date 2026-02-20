@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>قراءة الأحزاب</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="top">
+    <div class="title">قراءة القرآن بالأحزاب</div>
+    <div class="status" id="status">تهيئة...</div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <div class="cardTitle">الأحزاب</div>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <section class="card readerCard">
+      <div class="readerHead">
+        <div class="hTitle" id="hTitle">اختر حزباً</div>
+        <div class="btns">
+          <button id="doneBtn" disabled>تمّ</button>
+          <button id="undoBtn" disabled>إلغاء</button>
+        </div>
+      </div>
+      <div class="reader" id="reader">
+        <div class="empty">مازال ما اخترتي حتى حزب.</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
